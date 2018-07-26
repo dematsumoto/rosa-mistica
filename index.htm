@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
-<title>Rosa Mística Modas</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/w3.css">
-<link rel="stylesheet" href="css/main.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+<head>
+  <title>Rosa Mística Modas</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/w3.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+</head>
 
 <body>
-
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar" id="myNavbar">
@@ -30,7 +31,7 @@
   </div>
 </div>
 
-<!-- First Parallax Image with Logo Text -->
+<!-- First Parallax Image with Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
     <span class="w3-center w3-padding-large w3-black w3-xxlarge w3-wide w3-animate-opacity">ROSA MISTICA <span class="w3-hide-small">MODAS</span></span>
@@ -78,14 +79,14 @@
   </div>
 </div>
 
-<!-- Second Parallax Image with Portfolio Text -->
+<!-- Second Parallax Image with Brands Text -->
 <div class="bgimg-2 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
     <span class="w3-xlarge w3-text-white w3-wide w3-black w3-padding-large">MARCAS</span>
   </div>
 </div>
 
-<!-- Container (Portfolio Section) -->
+<!-- Container (Brands Section) -->
 <div class="w3-content w3-container w3-padding-64" id="brands">
   <h3 class="w3-center">Nossas Marcas</h3>
   <p class="w3-center"><em>Algumas das marcas que trabalhamos.<br></em></p><br>
@@ -137,7 +138,7 @@
   </div>
 </div>
 
-<!-- Third Parallax Image with Portfolio Text -->
+<!-- Third Parallax Image with Contact Text -->
 <div class="bgimg-3 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
      <span class="w3-xlarge w3-text-white w3-wide w3-black w3-padding-large">CONTATO</span>
@@ -157,22 +158,21 @@
     <div class="w3-col m6 w3-panel">
       <div class="w3-large w3-margin-bottom">
         <i class="fas fa-map-marker-alt fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Av Souza Naves 483, Ibiporã, PR<br>
-        <i class="fas fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00 151515<br>
-        <i class="fas fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: mail@mail.com<br>
+        <i class="fas fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Fone: (43) 3158-0404<br>
       </div>
       <p>Dê uma passadinha para um <i class="fas fa-coffee"></i>, ou deixe-nos uma mensagem:</p>
-      <form action="/action_page.php" target="_blank">
+      <form accept-charset="UTF-8" action="https://usebasin.com/f/4cef0d84eb00" method="POST" target="_blank">
         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
           <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Nome" required name="Name">
+            <input class="w3-input w3-border" id="name" type="text" placeholder="Seu Nome" required name="Nome">
           </div>
           <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            <input class="w3-input w3-border" id="email" type="email" placeholder="Email" required name="Email">
           </div>
         </div>
-        <input class="w3-input w3-border" type="text" placeholder="mensagem" required name="Message">
-        <button class="w3-button w3-black w3-right w3-section" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        <input class="w3-input w3-border" type="text" placeholder="Mensagem" required name="Mensagem">
+        <button class="w3-button pink w3-right w3-section w3-text-black" type="submit">
+          <i class="fa fa-paper-plane"></i> Enviar Mensagem
         </button>
       </form>
     </div>
