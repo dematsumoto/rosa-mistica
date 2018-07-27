@@ -33,25 +33,21 @@ function scrollTo(element, to, duration) {
 }
 
 function scrollToAbout(){
-    toggleFunction();
     elmnt = document.getElementById("about");
     scrollTo(document.documentElement, elmnt.offsetTop, 300);
 }
 
 function scrollToBrands(){
-    toggleFunction();
     elmnt = document.getElementById("brands");
     scrollTo(document.documentElement, elmnt.offsetTop, 300);
 }
 
 function scrollToContact(){
-    toggleFunction();
     elmnt = document.getElementById("contact");
     scrollTo(document.documentElement, elmnt.offsetTop, 300);
 }
 
 function scrollToHome(){
-    toggleFunction();
     elmnt = document.getElementById("home");
     scrollTo(document.documentElement, elmnt.offsetTop, 300);
 }
