@@ -53,10 +53,10 @@
     qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
-      <img src="images/clothes.jpeg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="loja" width="500" height="333">
+      <img src="images/clothes.jpeg" onclick="enlarge(this)" class="w3-round w3-image w3-opacity w3-hover-opacity-off" width="500" height="333">
     </div>
     <div class="w3-col m6 w3-center w3-padding-large">
-      <img src="images/bijoux.jpeg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="bijoux" width="500" height="333">
+      <img src="images/bijoux.jpeg" onclick="enlarge(this)" class="w3-round w3-image w3-opacity w3-hover-opacity-off" width="500" height="333">
     </div>
 
   </div>
@@ -136,8 +136,8 @@
 
 <!-- Modal for full size images on click-->
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
-  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fas fa-times"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-32">
     <img id="img01" class="w3-image">
     <p id="caption" class="w3-opacity w3-large"></p>
   </div>
@@ -193,10 +193,9 @@
 <footer class="w3-center pink w3-padding-32">
   <a onclick="scrollToHome()" class="w3-button w3-light-grey w3-text-black"><i class="fa fa-arrow-up w3-margin-right"></i>Voltar ao topo</a>
   <div class="w3-xlarge w3-section">
-    <i class="fab fa-facebook w3-text-black"></i>
-    <i class="fab fa-instagram w3-text-black"></i>
+    <a href="#" class="w3-hover-opacity"><i class="fab fa-facebook w3-text-black"></i></a>
+    <a href="#" class="w3-hover-opacity"><i class="fab fa-instagram w3-text-black"></i></a>
   </div>
-  <p class="w3-text-black">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-text-black">w3.css</a></p>
 </footer>
 
 <script src="js/script.js"></script>
