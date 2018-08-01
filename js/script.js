@@ -59,3 +59,7 @@ function scrollToHome(){
     elmnt = document.getElementById("home");
     scrollTo(document.documentElement, elmnt.offsetTop, 300);
 }
+
+function submit(){
+  document.forms["contact-form"].submit();
+}
